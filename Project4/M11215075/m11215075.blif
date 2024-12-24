@@ -1,0 +1,38 @@
+.model m11215075
+.inputs x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 x12 x13 x14 x15
+.outputs y1 y2
+.names x1 x2 x3 z1
+111 1
+.names x4 x5 x6 z2
+111 1
+.names x7 x8 x9 z3
+111 1
+.names x10 x11 x12 z4
+111 1
+.names x13 x14 z5
+11 1
+.names x15 z5 w4
+1- 1
+-1 1
+.names x11 z5 w2
+1- 1
+-1 1
+.names x12 z5 w3
+1- 1
+-1 1
+.names z1 z2 z3 w1
+111 1
+.names z4 w1 v1
+11 1
+.names w2 w3 v2
+1- 1
+-1 1
+.names w4 w5 v3
+1- 1
+-1 1
+.names v1 y1
+0 1
+.names v2 v3 y2
+1- 1
+-1 1
+.end
